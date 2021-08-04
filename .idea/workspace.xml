@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="926101ff-9467-416e-93ff-8aeb3f01eefe" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/core/templates/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,11 +32,12 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/core/templates" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\INTERNSHIP@21\Projects\ecommerce\core\templates" />
       <recent name="G:\INTERNSHIP@21\Projects\ecommerce\core" />
     </key>
   </component>
@@ -64,7 +66,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628114962648</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="working for login">
+      <created>1628115173326</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1628115173326</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -73,10 +82,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="working for login" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="268" y="0" key="CommitChangelistDialog2" timestamp="1628114961053">
+    <state x="268" y="0" key="CommitChangelistDialog2" timestamp="1628115172130">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="268" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1628114961053" />
+    <state x="268" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1628115172130" />
     <state x="412" y="61" key="FileChooserDialogImpl" timestamp="1627764760201">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -85,10 +94,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="75" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1625543447014" />
-    <state x="175" y="17" key="Vcs.Push.Dialog.v2" timestamp="1628114964507">
+    <state x="175" y="17" key="Vcs.Push.Dialog.v2" timestamp="1628115188044">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="175" y="17" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1628114964507" />
+    <state x="175" y="17" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1628115188044" />
     <state x="314" y="146" key="com.intellij.ide.util.TipDialog" timestamp="1627939022741">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
