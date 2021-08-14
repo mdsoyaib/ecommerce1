@@ -17,6 +17,7 @@ def index(request):
     data = {}
     data['product'] = product
     data['category'] = category
+    print('your are ', request.session.get('email'))
     return render(request, "index.html", data)
 
 
