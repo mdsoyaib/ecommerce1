@@ -3,8 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="926101ff-9467-416e-93ff-8aeb3f01eefe" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/views/home.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/views/home.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/views/login.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/views/login.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,32 +138,40 @@
       <option name="project" value="LOCAL" />
       <updated>1628891064974</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="working for session">
+      <created>1628978916132</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1628978916132</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="fix some error in views for signup" />
     <MESSAGE value="working for login" />
     <MESSAGE value="made a custom view package and created different file/view for each views" />
-    <option name="LAST_COMMIT_MESSAGE" value="made a custom view package and created different file/view for each views" />
+    <MESSAGE value="working for session" />
+    <option name="LAST_COMMIT_MESSAGE" value="working for session" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="265" y="0" key="CommitChangelistDialog2" timestamp="1628891043768">
+    <state x="265" y="0" key="CommitChangelistDialog2" timestamp="1629047693694">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="265" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1628891043768" />
-    <state x="412" y="61" key="FileChooserDialogImpl" timestamp="1628889434411">
+    <state x="265" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1629047693694" />
+    <state x="412" y="61" key="FileChooserDialogImpl" timestamp="1628995232194">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="412" y="61" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1628889434411" />
+    <state x="412" y="61" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1628995232194" />
     <state x="75" y="0" key="SettingsEditor" timestamp="1628543821130">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="75" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1628543821130" />
-    <state x="175" y="17" key="Vcs.Push.Dialog.v2" timestamp="1628891068156">
+    <state x="175" y="17" key="Vcs.Push.Dialog.v2" timestamp="1628978919364">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="175" y="17" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1628891068156" />
+    <state x="175" y="17" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1628978919364" />
     <state x="314" y="146" key="com.intellij.ide.util.TipDialog" timestamp="1628949941688">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
