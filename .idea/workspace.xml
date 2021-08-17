@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="926101ff-9467-416e-93ff-8aeb3f01eefe" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/core/templatetags/cart.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/views/home.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/views/home.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -150,7 +152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629047713869</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="working for cart">
+      <created>1629112454952</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1629112454952</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -162,22 +171,22 @@
     <option name="LAST_COMMIT_MESSAGE" value="working for cart" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="265" y="0" key="CommitChangelistDialog2" timestamp="1629047693694">
+    <state x="265" y="0" key="CommitChangelistDialog2" timestamp="1629112438031">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="265" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1629047693694" />
-    <state x="412" y="61" key="FileChooserDialogImpl" timestamp="1629100339005">
+    <state x="265" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1629112438031" />
+    <state x="412" y="61" key="FileChooserDialogImpl" timestamp="1629128240038">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="412" y="61" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1629100339005" />
+    <state x="412" y="61" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1629128240038" />
     <state x="75" y="0" key="SettingsEditor" timestamp="1628543821130">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="75" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1628543821130" />
-    <state x="175" y="17" key="Vcs.Push.Dialog.v2" timestamp="1629047719602">
+    <state x="175" y="17" key="Vcs.Push.Dialog.v2" timestamp="1629112458046">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="175" y="17" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1629047719602" />
+    <state x="175" y="17" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1629112458046" />
     <state x="314" y="146" key="com.intellij.ide.util.TipDialog" timestamp="1628949941688">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

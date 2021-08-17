@@ -3,6 +3,7 @@ from django.http import HttpResponse, request
 from core.models import Product, Category
 from django.views import View
 
+
 # Create your views here.
 
 
@@ -26,8 +27,10 @@ class Index(View):
 
         return redirect('homepage')
 
-
     def get(self, request):
+        cart = request.session.get('cart')
+        if not cart:
+            request.session.cart = {}
         product = None
         category = Category.get_all_category()
         categoryID = request.GET.get('category')

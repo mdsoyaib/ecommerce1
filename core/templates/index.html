@@ -1,6 +1,8 @@
 {% extends 'base.html' %}
 
 {% block content %}
+
+{% load cart %}
 <!-- body-->
     
 <div class="container-fluid mt-3">
@@ -27,6 +29,7 @@
                     <div class="card-body">
                         <p class="card-title">{{product.name}}</p>
                         <p class="card-text">{{product.price}}</p>
+                        {{ product | is_in_cart:request.session.cart }}
                         <form action="/" method="POST">
                             {% csrf_token %}
                             <input hidden type="text" name="product" value="{{product.id}}">
