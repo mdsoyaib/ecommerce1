@@ -130,3 +130,5 @@ STATIC_URL = '/static/'
 
 MEDIA_URL = "/image/download/"
 MEDIA_ROOT = BASE_DIR
+
+DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
