@@ -28,15 +28,24 @@
       </ul>
 
       <ul class="navbar-nav my-2 my-lg-0">
+        {% if request.session.customer %}
         <li class="nav-item">
-          <a class="nav-link" href="#">Logout <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="/cart">Cart <span class="sr-only">(current)</span></a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/orders">Orders <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/logout">Logout <span class="sr-only">(current)</span></a>
+        </li>
+        {% else %}
         <li class="nav-item">
             <a class="nav-link" href="/signup">Signup <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="/login">Login <span class="sr-only">(current)</span></a>
           </li>
+          {% endif %}
       </ul>
     </div>
   </nav>
