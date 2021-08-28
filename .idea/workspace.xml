@@ -4,7 +4,7 @@
     <list default="true" id="926101ff-9467-416e-93ff-8aeb3f01eefe" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/views/login.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/views/login.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -201,7 +201,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629974651955</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="working on login logout">
+      <created>1630077631597</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1630077631598</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -212,7 +219,8 @@
     <MESSAGE value="working for cart and problem solved of that error" />
     <MESSAGE value="working for cart" />
     <MESSAGE value="returning to same position after add to to cart" />
-    <option name="LAST_COMMIT_MESSAGE" value="returning to same position after add to to cart" />
+    <MESSAGE value="working on login logout" />
+    <option name="LAST_COMMIT_MESSAGE" value="working on login logout" />
   </component>
   <component name="WindowStateProjectService">
     <state x="265" y="0" key="CommitChangelistDialog2" timestamp="1630077612562">
@@ -227,10 +235,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="75" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1629916459517" />
-    <state x="175" y="17" key="Vcs.Push.Dialog.v2" timestamp="1629974653895">
+    <state x="175" y="17" key="Vcs.Push.Dialog.v2" timestamp="1630077661447">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="175" y="17" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1629974653895" />
+    <state x="175" y="17" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1630077661447" />
     <state x="314" y="146" key="com.intellij.ide.util.TipDialog" timestamp="1629609766996">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
