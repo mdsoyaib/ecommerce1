@@ -4,6 +4,7 @@ from core.views.home import Index, property
 from core.views.login import Login, logout
 from .views.cart import Cart
 from .views.signup import Signup
+from .views.checkout import Checkout
 
 urlpatterns = [
     path('', Index.as_view(), name="homepage"),
@@ -11,5 +12,6 @@ urlpatterns = [
     path('login', Login.as_view(), name="login"),
     path('logout', logout, name="logout"),
     path('cart', Cart.as_view(), name="cart"),
+    path('checkout', Checkout.as_view(), name="checkout"),
     path('property', property),
 ]

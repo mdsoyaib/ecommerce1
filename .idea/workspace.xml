@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="926101ff-9467-416e-93ff-8aeb3f01eefe" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/core/views/checkout.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/templates/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/cart.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,11 +34,12 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/core/models" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\INTERNSHIP@21\Projects\ecommerce\core\views" />
       <recent name="G:\INTERNSHIP@21\Projects\ecommerce\core\models" />
       <recent name="G:\INTERNSHIP@21\Projects\ecommerce\core\templatetags" />
       <recent name="G:\INTERNSHIP@21\Projects\ecommerce\core\templates" />
@@ -304,7 +306,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630799915661</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="working to place order">
+      <created>1630828522912</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1630828522913</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -322,38 +331,38 @@
     <option name="LAST_COMMIT_MESSAGE" value="working to place order" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="265" y="0" key="CommitChangelistDialog2" timestamp="1630799890391">
+    <state x="265" y="0" key="CommitChangelistDialog2" timestamp="1630963594985">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="265" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1630799890391" />
-    <state x="412" y="61" key="FileChooserDialogImpl" timestamp="1630302638941">
+    <state x="265" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1630963594985" />
+    <state x="412" y="61" key="FileChooserDialogImpl" timestamp="1630907119428">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="412" y="61" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1630302638941" />
-    <state width="1339" height="186" key="GridCell.Tab.0.bottom" timestamp="1630787631398">
+    <state x="412" y="61" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1630907119428" />
+    <state width="1339" height="52" key="GridCell.Tab.0.bottom" timestamp="1630859102136">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1339" height="186" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1630787631398" />
-    <state width="1339" height="186" key="GridCell.Tab.0.center" timestamp="1630787631398">
+    <state width="1339" height="52" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1630859102136" />
+    <state width="1339" height="52" key="GridCell.Tab.0.center" timestamp="1630859102136">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1339" height="186" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1630787631398" />
-    <state width="1339" height="186" key="GridCell.Tab.0.left" timestamp="1630787631398">
+    <state width="1339" height="52" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1630859102136" />
+    <state width="1339" height="52" key="GridCell.Tab.0.left" timestamp="1630859102136">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1339" height="186" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1630787631398" />
-    <state width="1339" height="186" key="GridCell.Tab.0.right" timestamp="1630787631398">
+    <state width="1339" height="52" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1630859102136" />
+    <state width="1339" height="52" key="GridCell.Tab.0.right" timestamp="1630859102136">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1339" height="186" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1630787631398" />
+    <state width="1339" height="52" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1630859102136" />
     <state x="75" y="0" key="SettingsEditor" timestamp="1629916459517">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="75" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1629916459517" />
-    <state x="175" y="17" key="Vcs.Push.Dialog.v2" timestamp="1630799919160">
+    <state x="175" y="17" key="Vcs.Push.Dialog.v2" timestamp="1630828544945">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="175" y="17" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1630799919160" />
+    <state x="175" y="17" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1630828544945" />
     <state x="314" y="146" key="com.intellij.ide.util.TipDialog" timestamp="1629609766996">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
