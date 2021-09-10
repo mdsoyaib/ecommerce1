@@ -11,7 +11,7 @@ from django.utils.decorators import method_decorator
 
 class Orders(View):
 
-    # @method_decorator(auth_middleware)
+    @method_decorator(auth_middleware)
 
     def get(self, request):
         customer = request.session.get('customer')
