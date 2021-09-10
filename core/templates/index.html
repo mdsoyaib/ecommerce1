@@ -26,7 +26,7 @@
             <div class="row mx-auto">
                 {% for product in product %}
                 <div class="card mx-auto mb-3" id="{{product.id}}" style="width: 18rem;">
-                    <img class="card-img-top" src="{{product.image.url}}" alt="Card image cap">
+                    <img height="300px" class="card-img-top" src="{{product.image.url}}" alt="Card image cap">
                     <div class="card-body">
                         <p class="card-title">{{product.name}}</p>
                         <p class="card-text">{{product.price|currency}}</p>
