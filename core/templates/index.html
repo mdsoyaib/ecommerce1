@@ -28,7 +28,7 @@
                 <div class="card mx-auto mb-3" id="{{product.id}}" style="width: 18rem;">
                     <img height="300px" class="card-img-top" src="{{product.image.url}}" alt="Card image cap">
                     <div class="card-body">
-                        <p class="card-title">{{product.name}}</p>
+                        <p class="card-title"><a style="text-decoration: none;" href="details/{{product.id}}">{{product.name}}</a></p>
                         <p class="card-text">{{product.price|currency}}</p>
                         {{ product | is_in_cart:request.session.cart }}
                     </div>

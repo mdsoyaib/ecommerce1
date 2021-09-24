@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="926101ff-9467-416e-93ff-8aeb3f01eefe" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/core/templates/details.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/views/details.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/views/orders.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/views/orders.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -34,7 +35,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/core/views" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -334,7 +335,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631286570735</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="middleware and returning url">
+      <created>1631294468699</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1631294468700</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -358,10 +366,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="265" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1631294454113" />
-    <state x="412" y="61" key="FileChooserDialogImpl" timestamp="1630907119428">
+    <state x="412" y="61" key="FileChooserDialogImpl" timestamp="1632162058426">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="412" y="61" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1630907119428" />
+    <state x="412" y="61" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1632162058426" />
     <state width="1339" height="52" key="GridCell.Tab.0.bottom" timestamp="1630859102136">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -382,10 +390,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="75" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1629916459517" />
-    <state x="175" y="17" key="Vcs.Push.Dialog.v2" timestamp="1631286677888">
+    <state x="175" y="17" key="Vcs.Push.Dialog.v2" timestamp="1631294478724">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="175" y="17" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1631286677888" />
+    <state x="175" y="17" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1631294478724" />
     <state x="314" y="146" key="com.intellij.ide.util.TipDialog" timestamp="1629609766996">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

@@ -6,10 +6,12 @@ from .views.cart import Cart
 from .views.signup import Signup
 from .views.checkout import Checkout
 from .views.orders import Orders
+from .views.details import ProductDetails
 from core.middlewares.auth import auth_middleware
 
 urlpatterns = [
     path('', Index.as_view(), name="homepage"),
+    path('details/<int:pk>', ProductDetails.as_view(), name="details"),
     path('signup', Signup.as_view(), name="signup"),
     path('login', Login.as_view(), name="login"),
     path('logout', logout, name="logout"),
